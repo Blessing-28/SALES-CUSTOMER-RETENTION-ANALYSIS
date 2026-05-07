@@ -1,12 +1,17 @@
 # SALES-CUSTOMER-RETENTION-ANALYSIS
 This analysis evaluates sales performance, customer loyalty, and operational efficiency across 7  interconnected data tables
+
+
 ## Project Overview
+
 This project focuses on performing a comprehensive analysis of the AdventureWorks retail dataset to uncover key drivers of customer loyalty and operational efficiency. By leveraging SQLite, I developed a series of unified reporting views that track the full customer lifecycle—from initial purchase to repeat behavior and eventual returns.
 
 
 ## Key Business Insights
 - **High Customer Retention:** Identified a strong brand loyalty with a 86.6% repeat user rate, representing 15,089 returning customers out of a 17,416 total base.
+  
 - **Category Performance:** Segmented sales data to find that Accessories lead in volume (33,607 orders) and frequency, while Bikes and Clothing show distinct repeat purchase patterns.
+  
 - **Operational Integrity:** Audited and corrected "many-to-many" join errors in initial reporting that inaccurately inflated return rates, ensuring leadership received validated Portfolio Health metrics.
 
 
@@ -28,7 +33,7 @@ This project focuses on performing a comprehensive analysis of the AdventureWork
 - Conditional Logic: Implemented CASE statements to tier products by price and categorize customer loyalty.
 
 
-##Repository Structure
+## Repository Structure
 
 - Adventureworks.sqbpro: Full SQLite project file containing all cleaning and analysis scripts.
 
